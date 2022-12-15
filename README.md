@@ -1,6 +1,6 @@
-# mynotes
+# My Notes
 
-A new Flutter project.
+A new Flutter proof-of-concept project.
 
 ## Getting Started
 
