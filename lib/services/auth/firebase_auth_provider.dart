@@ -6,14 +6,14 @@ import 'package:mynotes/services/auth/auth_exceptions.dart';
 import 'package:mynotes/services/auth/auth_provider.dart';
 import 'package:mynotes/services/auth/auth_user.dart';
 
-class FirebaseAuthProvider extends AuthProvider { 
+class FirebaseAuthProvider extends AuthProvider {
   @override
   Future<void> initialize() async {
     await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform,
-      );
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
   }
-  
+
   @override
   Future<AuthUser> createUser({
     required String email,
@@ -61,6 +61,7 @@ class FirebaseAuthProvider extends AuthProvider {
     required String password,
   }) async {
     try {
+      await Future.delayed(const Duration(seconds: 3));
       await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: email,
         password: password,
