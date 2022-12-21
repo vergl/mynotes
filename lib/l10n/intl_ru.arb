@@ -1,0 +1,62 @@
+{
+
+    "logout_button": "Выход",
+    "note": "Заметка",
+    "cancel": "Отмена",
+    "yes": "Да",
+    "delete": "Удалить",
+    "sharing": "Поделиться",
+    "ok": "OK",
+    "login": "Вход",
+    "verify_email": "Подтверждение почты",
+    "register": "Регистрация",
+    "restart": "Перезапуск",
+
+    "start_typing_your_note": "Введите вашу заметку",
+    "delete_note_prompt": "Вы уверены, что хотите удалить заметку?",
+    "cannot_share_empty_note_prompt": "Нельзя поделиться пустой заметкой!",
+    "generic_error_prompt": "Произошла ошибка",
+    "logout_dialog_prompt": "Вы уверены, что хотите выйти из системы?",
+
+    "password_reset": "Сброс пароля",
+    "password_reset_dialog_prompt": "Мы отправили вам ссылку для сброса пароля. Прочтите письмо с инструкцией в вашей почте.",
+
+    "login_error_cannot_find_user": "Пользователь не существует!",
+    "login_error_wrong_credentials": "Неправильно введены данные",
+    "login_error_auth_error": "Ошибка аутентификации",
+
+    "login_view_prompt": "Пожалуйста, войдите в свою учетную запись для работы с заметками!",
+    
+    "login_view_forgot_password": "Восстановление пароля",
+    "login_view_not_registered_yet": "Еще не зарегистрированы? Регистрация здесь!",
+
+    "email_text_field_placeholder": "Введите почту",
+    "password_text_field_placeholder": "Введите пароль",
+    
+    "forgot_password": "Восстановление пароля",
+    "forgot_password_view_generic_error": "Мы не смогли обработать ваш запрос. Убедитесь, что вы зарегистрированный пользователь. Если нет, зарегистрируйтесь на предыдущем экране.",
+    "forgot_password_view_prompt": "Если вы забыли пароль, введите вашу почту и мы отправим вам письмо с ссылкой для сброса пароля.",
+    "forgot_password_view_send_me_link": "Отправить письмо",
+    "forgot_password_view_back_to_login": "Вернуться на страницу входа",
+
+    "register_error_weak_password": "Пароль недостаточно безопасный. Выберите другой пароль!",
+    "register_error_email_already_in_use": "Пользователь с такой почтой уже существует. Выберите другую почту!",
+    "register_error_generic": "Ошибка регистрации, попробуйте позднее!",
+    "register_error_invalid_email": "Введенная вами почта невалидная, попробуйте другую почту!",
+    "register_view_prompt": "Введите вашу почту и пароль чтобы перейти к заметкам!",
+    "register_view_already_registered": "Уже зарегистрированы? Вход здесь!",
+
+    "verify_email_view_prompt": "Мы отправили вам письмо с верификацией. Пожалуйста, откройте письмо и подтвердите почту. Если вы не получили письмо нажмите кнопку ниже!",
+    "verify_email_send_email_verification": "Отправить письмо с верификацией",
+
+    "notes_title": "{count, plural, =0{Нет заметок} =1{1 заметка} =2{2 заметки} =3{3 заметки} =4{4 заметки} other{{count} заметок}}",
+    "@notes_title": {
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3 заметки"
+            }
+        }
+    }
+
+}
